@@ -9,7 +9,11 @@
     font-weight: normal;
 }
 
-
+@media (min-width:800) {
+    .peguena{
+        float: right;
+    }
+}
 :root{
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -128,7 +132,7 @@ main img.peguena{
     display: block;
     margin: auto;
     border-radius:5px;
-    float: right;
+    
     
 }
 main img#starship{
