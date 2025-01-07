@@ -9,7 +9,7 @@
     font-weight: normal;
 }
 
-@media (min-width:800) {
+@media (min-width:800px) {
     .peguena{
         float: right;
     }
@@ -132,6 +132,7 @@ main img.peguena{
     display: block;
     margin: auto;
     border-radius:5px;
+    padding-left: 10px;
     
     
 }
@@ -167,6 +168,7 @@ article p.principal{
 
 article p{
     padding: 10px;
+    
     text-align: justify;
 }
 
