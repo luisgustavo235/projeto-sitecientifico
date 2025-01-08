@@ -147,6 +147,7 @@ article#android h1{
     font-family: var(--font-android);
     font-weight: normal;
     font-size: 1.8em;
+    text-align: center;
 }
 
 article#android h2{
