@@ -166,9 +166,8 @@ article p.principal{
     
 }
 
-article p{
+article p.texto{
     padding: 10px;
-    
     text-align: justify;
 }
 
