@@ -137,7 +137,7 @@ main img.peguena{
     
 }
 main img#starship{
-    max-width: 290px;
+    max-width: 200px;
     
     
 }
@@ -176,21 +176,10 @@ article p.texto{
     position: absolute;
 }
 
-
-
 footer {
     color: white;
     background-color: var(--cor5);
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
-}
-footer a {
-    color: white;
-    font-weight: bolder;
-        text-decoration: none;
-}
-footer a:hover {
-    text-decoration: underline;
-    color: var(--cor1);
 }
