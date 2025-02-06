@@ -11,7 +11,7 @@
 
 @media (min-width:800px) {
     .peguena{
-        float: right;
+        float: left;
     }
 }
 :root{
@@ -91,6 +91,7 @@ div{
     margin: 10px auto;
     padding: 30px;
     border-radius: 10px;
+    min-height: 180px;
     min-width: 320px;
     max-width: 800px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
@@ -121,10 +122,11 @@ article img.peguena{
     display: block;
     margin: auto;
     border-radius:5px;
-    padding: 0px 0px 10px 10px;   
+    padding: 0px 10px 10px 0px;   
 }
 
 article h1{
+    text-align: left;
     color: var(--cor5);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -132,14 +134,19 @@ article h1{
 }
 
 article h2{
+    text-align: left;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: red;  
     font-weight: bold;
 }
-
+article p{
+    text-align: left;
+    padding-left: 260px;
+}
 
 article p.texto{
+    
     padding: 10px;
     text-align: justify;
 }
